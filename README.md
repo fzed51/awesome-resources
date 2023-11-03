@@ -29,7 +29,7 @@ Création d'un projet vite avec tout ce qu'il faut
   ```
 
   vite-env.d.ts
-  ```ts
+  ```typescript
   /// <reference types="vite/client" />
   interface ImportMetaEnv {
     readonly VITE_VAR: string;
@@ -38,8 +38,8 @@ Création d'un projet vite avec tout ce qu'il faut
     readonly env: ImportMetaEnv;
   }
   ```
-  main.ts
-  ```reacttypescript
+  main.tsx
+  ```typescript
   import React from 'react'
   import ReactDOM from 'react-dom/client'
   import App from './App.tsx'
@@ -57,7 +57,7 @@ Création d'un projet vite avec tout ce qu'il faut
   body {}
   ```
   App.tsx
-  ```reacttypescript
+  ```typescript
   import "./App.css";
   function App() {
     return <>App</>;
@@ -81,7 +81,7 @@ Création d'un projet vite avec tout ce qu'il faut
   yarn add @fontsource/roboto
   ```
   App.tsx
-  ```reacttypescript
+  ```typescript
   import { CssBaseline, ThemeProvider } from "@mui/material";
   import { theme } from "./theme";
   import "./App.css";
