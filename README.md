@@ -128,7 +128,24 @@ Création d'un projet vite avec tout ce qu'il faut
     ```shell
     yarn add delay-async
     ```
+    
+  - usehooks(🔥)-ts
+    ```shell
+    yarn add usehooks-ts
+    ```
+    voir [usehooks-ts.com](https://usehooks-ts.com/)
 
+  - génération d'UUID
+    ```shel
+    yarn add uuid
+    yarn add -D @types/uuid
+    ```
+    ```typescript
+    import { v4 as uuid } from 'uuid';
+    uuid(); // ⇨ '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d'
+    ```
+    pour les navigateur utiliser directement `crypto.randomUUID()`
+    
 ## php
 
 ## python
